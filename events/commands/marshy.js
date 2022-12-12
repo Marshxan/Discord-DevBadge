@@ -5,7 +5,7 @@ const create = () => {
 		.setName('marshy')
 		.setDescription('Replys with Marshy stuff')
 		.addUserOption((option) =>
-			option.setName('user').setDescription('Shall I greet a user?')
+			option.setName('user').setDescription('Shall I Pong A user')
 		);
 
 	return command.toJSON();
