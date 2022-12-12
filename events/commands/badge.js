@@ -1,6 +1,6 @@
 import { EmbedBuilder, SlashCommandBuilder } from 'discord.js';
 
-// Creates an Object in JSON with the data required by Discord's API to create a SlashCommand
+
 const create = () => {
 	const command = new SlashCommandBuilder()
 		.setName('badge')
@@ -12,11 +12,9 @@ const create = () => {
 	return command.toJSON();
 };
 
-// Called by the interactionCreate event listener when the corresponding command is invoked
 const invoke = (interaction) => {
 	const guild = interaction.guild;
 
-	// Create a MessageEmbed and add an inlined field for each property displayed in the reply message
 	const embed = new EmbedBuilder().setTitle(guild.name).addFields([
 		{
 			name: 'You Have Now Got The Badge!',
