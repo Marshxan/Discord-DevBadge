@@ -3,7 +3,7 @@ import { SlashCommandBuilder } from 'discord.js';
 const create = () => {
 	const command = new SlashCommandBuilder()
 		.setName('marshy')
-		.setDescription('Replys with Marshy stuff')
+		.setDescription('Replys with Marshy stuff (Active Bot Dev Badge Bot Made By Marshy)')
 		.addUserOption((option) =>
 			option.setName('user').setDescription('Shall I Pong A user')
 		);
