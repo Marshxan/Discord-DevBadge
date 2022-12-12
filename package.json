@@ -1,0 +1,17 @@
+{
+	"name": "discord-devbadge",
+	"version": "1.0.0",
+	"description": "A simple bot to run so you can get a discord dev badge",
+	"main": "Bot.js",
+	"keywords": [],
+	"author": "Marshy!",
+	"license": "MIT",
+	"dependencies": {
+		"discord.js": "^14.3.0"
+	},
+	"imports": {
+		"#events/*": "./events/*",
+		"#commands/*": "./events/commands/*.js"
+	},
+	"type": "module"
+}
