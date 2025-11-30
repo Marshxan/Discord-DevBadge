@@ -27,7 +27,7 @@ const invoke = (interaction) => {
 			inline: true,
 		},
 	]);
-
+ 
 	embed
 		.setColor('Aqua')
 		.setFooter({ text: 'https://marshy.lol' })
